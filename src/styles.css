@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+      height: 100%;
+}
+
+.fs-7 {
+      font-size: 12px;
+}
+
+.fs-8 {
+      font-size: small;
+}
+
+.iconSize {
+      width: 30px;
+      height: 30px;
+  }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+      .iconSize {
+          width: 30px;
+          height: 30px;
+      }
+
+      .fs-7 {
+            font-size: 12px;
+      }
+
+      .fs-8 {
+            font-size: small;
+      }
+   }
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 992px) { 
+      .iconSize {
+          width: 45px;
+          height: 45px;
+      }
+
+      .fs-7 {
+            font-size: 16px;
+      }
+
+      .fs-8 {
+            font-size: small;
+      }
+}

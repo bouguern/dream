@@ -1,0 +1,27 @@
+<div class="h-100">
+    <form #myForm="ngForm" class="text-white d-flex flex-column ">
+        <h3 class="mb-4 ">Pour commencer...</h3>
+        <p class="text-wrap w-75 w-md-50">
+            Faire votre Shynleï, jouer avec,
+            c'est l'occasion d'écouter vos reves,
+            de les partager et de prendre confiance dans votre richesse.
+        </p>
+        <div class="form-group">
+            <label class="form-label mt-3" for="nomPrenom">Nom et prénom : </label>
+        <input type="text" id="nomPrenom" name="nomPrenom" 
+            [(ngModel)]="formObject.nomEtPrenom" required
+            (ngModelChange)="onFormChange()"
+            class="form-control inputStyle rounded-0 border-start-0 border-top-0 border-end-0 border-2 w-50"
+            placeholder="Jeal" />
+        </div>
+
+        <div class="form-group">
+            <label class="form-label mt-2 mb-1 " for="intention">Mon intention : </label><br/>
+        <small class="fs-8 fw-light mb-1">L'intention, l'objectif de ce Shynleï</small>
+        <input type="text" id="intention" name="intention" [(ngModel)]="formObject.intention" 
+            required (ngModelChange)="onFormChange()"
+            class="form-control inputStyle rounded-0 border-start-0 border-top-0 border-end-0 border-2 w-50"
+            placeholder="Mon rêl" />
+        </div>
+    </form>
+</div>

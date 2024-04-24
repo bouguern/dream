@@ -1,0 +1,6 @@
+<div class="alert alert-primary text-center" role="alert">
+    <span *ngIf="sumOfIpNumbers > 100; else elseBlock">OK</span>
+    <ng-template #elseBlock>
+        <span>KO</span>
+    </ng-template>
+</div>
