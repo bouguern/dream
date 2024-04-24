@@ -1,6 +1,6 @@
 # Dream App - Starting page UI
 
-Ce projet a été généré avec version 15.2.11.
+Ce projet a été généré avec Angular version 15.2.11.
 
 L’objectif de ce mini projet est de développer une page de bienvenue en mode responsive (UI compatible avec PC et mobile) avec Angular 15 et Bootstrap 5 pour l’application Dream App.
 
