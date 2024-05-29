@@ -23,5 +23,3 @@ L’objectif de ce mini projet est de développer une page de bienvenue en mode 
    ng serve
 
 #### Une fois l'application lancée, vous pouvez y accéder en utilisant URL suivante: http://localhost:4200
-
-#### Ou bien le Domaine où l’application l'application est déployée, vous pouvez y accéder en utilisant URL suivante: https://dream-inventiv-it.netlify.app/bienvenue
